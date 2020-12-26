@@ -44,6 +44,8 @@ body {
     right: -40px;
 }
 
+/* ---"Buttons" Settings--- */
+
 .New {
     margin-left: 10px;
     background-color: var(--Very-Dark-Blue);
@@ -61,6 +63,8 @@ body {
     color: black;
 }
 
+/* ---Content Settings--- */
+
 section h3:last-child {
     color: rgb(122, 122, 122);
     font-family: 'Barlow', sans-serif;
@@ -74,14 +78,6 @@ section h3:last-child {
     top: -10px;
     left: 12px;
     font-size: 37px;
-
-}
-
-.h4 {
-    position: relative;
-    top: -30px;
-    font: 26px 'Barlow', sans-serif;
-    color: var(--Grayish-Blue);
 
 }
 
@@ -105,6 +101,14 @@ div h3:first-child:hover {
 
 }
 
+.h4 {
+    position: relative;
+    top: -30px;
+    font: 26px 'Barlow', sans-serif;
+    color: var(--Grayish-Blue);
+
+}
+
 div h4:last-child {
     position: relative;
     left: 205px;
@@ -113,6 +117,7 @@ div h4:last-child {
     color: rgba(87, 87, 87, 0.712);
 }
 
+/* ---Modal Settings--- */
 .modal {
     position: absolute;
     font-family: 'Barlow', sans-serif;
@@ -145,9 +150,6 @@ li {
 
 }
 
-/* font-family: 'Barlow Condensed', sans-serif;400 and 700 */
-/* font-family: 'Barlow', sans-serif; 400 */
-
 /* RESPONSIVE */
 @media screen and (min-width:700px) {
     .Logo {
@@ -158,6 +160,13 @@ li {
 
     .Hamburger {
         visibility: hidden;
+    }
+
+    .illustration {
+        width: 120vh;
+        position: absolute;
+        top: 150px;
+        left: 50%;
     }
 
     ul {
@@ -178,14 +187,6 @@ li {
         font-weight: bold;
         float: left;
     }
-
-    .illustration {
-        width: 120vh;
-        position: absolute;
-        top: 150px;
-        left: 50%;
-    }
-
 
     section h3:last-child {
         width: 230px;

@@ -4,8 +4,6 @@
 
 ## Welcome! 👋
 
-The project of [Pedro Santos](https://pedrh77.github.io/Tracking-Component/)
-
 Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
