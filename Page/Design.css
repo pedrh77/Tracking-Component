@@ -1,0 +1,249 @@
+/* --- General Settings --- */
+:root {
+    /* Primaria */
+    --Red: hsl(0, 100%, 68%);
+
+    /* Neutral */
+    --Very-Dark-Blue: hsl(230, 100%, 9%);
+    --Dark-Grayish-Blue: hsl(230, 11%, 40%);
+    --Grayish-Blue: hsl(235, 7%, 65%);
+    --Light-Grayish-Blue: hsl(207, 33%, 95%);
+}
+
+body {
+    background-color: white;
+    border: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 15px;
+    overflow-x: hidden;
+    word-break: break-word;
+}
+
+/* --- Image Settings --- */
+.Logo {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.Hamburger {
+    cursor: pointer;
+    position: absolute;
+    top: 28px;
+    right: 20px;
+}
+
+.illustration {
+    width: 90vh;
+    float: top;
+    position: relative;
+    top: 40px;
+    right: -40px;
+}
+
+.New {
+    margin-left: 10px;
+    background-color: var(--Very-Dark-Blue);
+    width: 50px;
+    position: relative;
+    top: 35px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.9s;
+}
+
+.New:hover {
+    background-color: var(--Light-Grayish-Blue);
+    color: black;
+}
+
+section h3:last-child {
+    color: rgb(122, 122, 122);
+    font-family: 'Barlow', sans-serif;
+    position: relative;
+    top: -5px;
+    right: -70px;
+}
+
+.conteudo {
+    position: relative;
+    top: -10px;
+    left: 12px;
+    font-size: 37px;
+
+}
+
+.h4 {
+    position: relative;
+    top: -30px;
+    font: 26px 'Barlow', sans-serif;
+    color: var(--Grayish-Blue);
+
+}
+
+div h3:first-child {
+    background-color: var(--Red);
+    position: relative;
+    font-size: 20px;
+    left: 10px;
+    top: -30px;
+    width: 165px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+    transition: 0.9s;
+}
+
+div h3:first-child:hover {
+    background-color: red;
+    border-radius: 4px;
+
+}
+
+div h4:last-child {
+    position: relative;
+    left: 205px;
+    top: -80px;
+    font-size: 16px;
+    color: rgba(87, 87, 87, 0.712);
+}
+
+.modal {
+    position: absolute;
+    font-family: 'Barlow', sans-serif;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    width: 300px;
+    height: 170px;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 40px;
+    z-index: 1;
+    visibility: hidden;
+    background-color: var(--Light-Grayish-Blue);
+    color: var(--Very-Dark-Blue);
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    opacity: 0.95;
+    transition: 300ms;
+}
+
+li {
+    cursor: pointer;
+}
+
+.modal :last-child {
+    border-top: 2px solid rgba(194, 193, 193, 0.151);
+    color: rgb(190, 190, 190);
+
+}
+
+/* font-family: 'Barlow Condensed', sans-serif;400 and 700 */
+/* font-family: 'Barlow', sans-serif; 400 */
+
+/* RESPONSIVE */
+@media screen and (min-width:700px) {
+    .Logo {
+        width: 2.5em;
+        left: 40px;
+        top: 30px;
+    }
+
+    .Hamburger {
+        visibility: hidden;
+    }
+
+    ul {
+        visibility: visible;
+        position: absolute;
+        right: 0px;
+        top: 40px;
+        font-size: 20px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: inline;
+    }
+
+    li {
+        width: 90px;
+        font-weight: bold;
+        float: left;
+    }
+
+    .illustration {
+        width: 120vh;
+        position: absolute;
+        top: 150px;
+        left: 50%;
+    }
+
+
+    section h3:last-child {
+        width: 230px;
+        text-align: center;
+        position: relative;
+        top: 35px;
+        right: -30px;
+    }
+
+    .conteudo {
+        top: 20px;
+        font-weight: 900;
+        font-size: 70px;
+        word-break: break-word;
+        width: 50%;
+    }
+
+    section h3:last-child {
+        position: relative;
+
+        left: 50px;
+        font-size: 20px;
+    }
+
+    .New {
+        position: relative;
+        top: 78px;
+        font-size: 20px;
+
+    }
+
+    div h3:first-child {
+        font-size: 20px;
+        top: 20px;
+    }
+
+    div h4:last-child {
+        font-size: 20px;
+        position: relative;
+        top: -35px;
+    }
+
+    .h4 {
+        top: 10px;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .modal {
+        margin-right: 0px;
+        background-color: white;
+        position: absolute;
+        visibility: visible;
+        width: 370px;
+        height: 40px;
+    }
+
+    .attribution {
+        font-size: 20px;
+    }
+}
