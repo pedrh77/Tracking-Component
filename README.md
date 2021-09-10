@@ -5,7 +5,8 @@
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
-Tracking Component of [Pedro Santos](https://pedrh77.github.io/Tracking-Component/)
+
+### Tracking Component of used [Pedrh77 - Click Here](https://pedrh77.github.io/Tracking-Component/)
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
 
